@@ -21,7 +21,7 @@ module.exports = {
         name: "GatsbyJS",
         short_name: "GatsbyJS",
         display: "minimal-ui",
-        start_url: `/gatsby-pwa-tutorial`,
+        start_url: `/gatsby-pwa-tutorial/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
