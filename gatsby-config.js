@@ -18,16 +18,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: "GatsbyJS",
+        short_name: "GatsbyJS",
+        display: "minimal-ui",
         start_url: `/gatsby-pwa-tutorial`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
-        display: `standalone`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-        include_favicon: true, // Include favicon
+        // include_favicon: true, // Include favicon
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
